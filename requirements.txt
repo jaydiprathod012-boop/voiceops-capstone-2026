@@ -1,0 +1,40 @@
+# Core LLM / AI
+openai>=1.30.0
+google-generativeai>=0.7.0
+anthropic>=0.25.0
+
+# Data handling
+pandas>=2.2.0
+numpy>=1.26.0
+
+# RAG / Vector search
+sentence-transformers>=3.0.0
+faiss-cpu>=1.8.0
+chromadb>=0.5.0
+
+# HTTP / WebSocket (for Gnani STT/TTS in Step 4)
+httpx>=0.27.0
+websockets>=12.0
+aiohttp>=3.9.0
+
+# Text processing / multilingual
+langchain>=0.2.0
+langchain-community>=0.2.0
+tiktoken>=0.7.0
+
+# Audio (Step 4)
+sounddevice>=0.4.6
+soundfile>=0.12.1
+
+# Utilities
+python-dotenv>=1.0.0
+rich>=13.7.0
+tqdm>=4.66.0
+
+# Evaluation
+scikit-learn>=1.4.0
+rouge-score>=0.1.2
+
+# Dev / Testing
+pytest>=8.2.0
+pytest-asyncio>=0.23.0

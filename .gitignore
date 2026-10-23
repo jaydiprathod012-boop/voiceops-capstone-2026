@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Generated at runtime (do NOT commit)
+tools/tickets_created.csv
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large/binary files already in dataset ZIP (don't re-commit)
+dataset/
+*.zip
+
+# Audio test files (for Step 4 voice testing)
+*.wav
+*.mp3
+*.ogg
+*.webm
+audio_tests/
